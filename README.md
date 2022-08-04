@@ -1,4 +1,4 @@
-## PHP Unit Test Example
+## PHPUnit / PHP 7.4 / Docker boilerplate
 
 This is an empty PHP project with `phpunit` & `mockery`
 
@@ -7,35 +7,19 @@ This is an empty PHP project with `phpunit` & `mockery`
 * `phpunit/phpunit`
 * `mockery/mockery`
 
-## `phpunit.xml` generation
-
-```sh
-vendor/bin/phpunit --generate-configuration
-```
-
 ## `HelloWorld` example with unit test
 
 A class to say hello world.
 
-## `.editorconfig`
+## Get started
 
-```txt
-root = true
+### Mount container and install dependencies
 
-[*]
-charset = utf-8
-end_of_line = lf
-insert_final_newline = true
-indent_style = space
-indent_size = 4
-trim_trailing_whitespace = true
+> make up
 
-[*.md]
-trim_trailing_whitespace = false
+### Run tests
 
-[*.yml]
-indent_size = 2
-```
+> make phpunit
 
 ## License
 
