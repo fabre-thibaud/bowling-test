@@ -7,3 +7,6 @@ phpunit:
 
 stop:
 	docker-compose down
+
+commit:
+	docker-compose exec app ./vendor/bin/grumphp run -n
